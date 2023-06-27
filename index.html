@@ -1,13 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>SImple Tailwind Starter</title>
+    <title>Rock Paper Scissor</title>
 </head>
-<body>
-    <h1 class="text-3xl bg-green-300">SImple hello</h1>
+
+<body class="bg-blue-200">
+    <!-- Main Container -->
+    <main class="flex justify-center h-screen md:p-48">
+        <div class="bg-white flex flex-col space-y-20 shadow-inner rounded-lg p-20">
+            <!-- Screen Display -->
+            <section id="screen-display" class="w-full flex justify-center">
+                <!-- Screen Display Container -->
+                <div class="border border-gray-200 shadow-lg rounded-lg w-72 h-36 flex justify-center items-center">
+                    <span id="word-display" class="text-gray-500">Bot Win!</span>
+                </div>
+            </section>
+            <!-- Buttons -->
+            <section id="buttons-container" class="w-full flex justify-center">
+                <!-- Buttons Container -->
+                <div
+                    class="border border-gray-200 shadow-lg rounded-lg flex justify-center items-center space-x-8 w-72 h-36">
+                    <button id="paper" class="border border-green-200 h-20">
+                        <img src="images/icons8-paper-hand-96.png" alt="paper-hand" />
+                    </button>
+                    <button id="rock" class="border border-green-200 h-20">
+                        <img src="images/icons8-rock-hand-96.png" alt="rock-hand" />
+                    </button>
+                    <button id="scissor" class="border border-green-200 h-20">
+                        <img src="images/icons8-hand-scissors-96.png" alt="scissors-hand" />
+                    </button>
+                </div>
+            </section>
+            <!-- Score Display -->
+            <section id="score-tracking-display" class="w-full flex justify-center">
+                <!-- Score Display Container -->
+                <div class="border border-gray-200 shadow-lg rounded-lg w-72 h-36 flex justify-around items-center">
+                    <!-- 'You' container -->
+                    <div class="flex flex-col text-gray-500 font-bold">
+                        <span class="text-2xl">You</span>
+                        <span>Score</span>
+                    </div>
+                    <span class="text-gray-500 font-bold text-xl">VS</span>
+                    <!-- Bot Container -->
+                    <div class="flex flex-col text-gray-500 font-bold">
+                        <span class="text-2xl">Bot</span>
+                        <span>Score</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
 </body>
+
 </html>
