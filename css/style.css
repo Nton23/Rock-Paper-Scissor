@@ -560,10 +560,6 @@ video {
   display: flex;
 }
 
-.h-20 {
-  height: 5rem;
-}
-
 .h-36 {
   height: 9rem;
 }
@@ -572,24 +568,12 @@ video {
   height: 100vh;
 }
 
-.h-\[70\%\] {
-  height: 70%;
-}
-
-.h-\[60\%\] {
-  height: 60%;
-}
-
 .w-72 {
   width: 18rem;
 }
 
 .w-full {
   width: 100%;
-}
-
-.w-52 {
-  width: 13rem;
 }
 
 .flex-col {
@@ -638,16 +622,6 @@ video {
   border-color: rgb(187 247 208 / var(--tw-border-opacity));
 }
 
-.border-green-400 {
-  --tw-border-opacity: 1;
-  border-color: rgb(74 222 128 / var(--tw-border-opacity));
-}
-
-.border-red-600 {
-  --tw-border-opacity: 1;
-  border-color: rgb(220 38 38 / var(--tw-border-opacity));
-}
-
 .bg-blue-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(191 219 254 / var(--tw-bg-opacity));
@@ -658,12 +632,8 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.p-20 {
-  padding: 5rem;
-}
-
-.p-5 {
-  padding: 1.25rem;
+.text-center {
+  text-align: center;
 }
 
 .text-2xl {
@@ -698,56 +668,16 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:h-\[10\%\] {
-    height: 10%;
-  }
-
   .md\:h-\[30\%\] {
     height: 30%;
-  }
-
-  .md\:h-\[100\%\] {
-    height: 100%;
-  }
-
-  .md\:h-\[60\%\] {
-    height: 60%;
   }
 
   .md\:h-full {
     height: 100%;
   }
 
-  .md\:h-\[40\%\] {
-    height: 40%;
-  }
-
-  .md\:h-\[35\%\] {
-    height: 35%;
-  }
-
-  .md\:w-\[70\%\] {
-    width: 70%;
-  }
-
-  .md\:w-\[60j\%\] {
-    width: 60j%;
-  }
-
-  .md\:w-\[60\%\] {
-    width: 60%;
-  }
-
-  .md\:w-\[50\%\] {
-    width: 50%;
-  }
-
   .md\:w-1\/2 {
     width: 50%;
-  }
-
-  .md\:justify-center {
-    justify-content: center;
   }
 
   .md\:justify-around {
@@ -758,22 +688,14 @@ video {
     padding: 5rem;
   }
 
-  .md\:p-10 {
-    padding: 2.5rem;
-  }
-
-  .md\:p-40 {
-    padding: 10rem;
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;
-  }
-
-  .md\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 
   .md\:text-xl {

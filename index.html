@@ -18,7 +18,7 @@
                 <!-- Screen Display Container -->
                 <div
                     class="border border-gray-200 shadow-lg rounded-lg w-72 h-36 flex justify-center items-center md:h-full md:w-1/2">
-                    <span id="word-display" class="text-gray-500 md:text-5xl">Bot Win!</span>
+                    <span id="word-display" class="text-gray-500 md:text-5xl text-center"></span>
                 </div>
             </section>
             <!-- Buttons -->
@@ -44,19 +44,20 @@
                     class="border border-gray-200 shadow-lg rounded-lg w-72 h-36 flex justify-around items-center md:h-full md:w-1/2">
                     <!-- 'You' container -->
                     <div class="flex flex-col items-center text-gray-500 font-bold">
-                        <span class="text-2xl md:text-4xl">You</span>
-                        <span class="md:text-xl">Score</span>
+                        <span class="text-2xl md:text-4xl" id="player">You</span>
+                        <span class="md:text-xl" id="player-score">Score</span>
                     </div>
                     <span class="text-gray-500 font-bold text-xl md:text-5xl">VS</span>
                     <!-- Bot Container -->
                     <div class="flex flex-col items-center text-gray-500 font-bold">
-                        <span class="text-2xl md:text-4xl">Bot</span>
-                        <span class="md:text-xl">Score</span>
+                        <span class="text-2xl md:text-4xl" id="bot">Bot</span>
+                        <span class="md:text-xl" id="bot-score">Score</span>
                     </div>
                 </div>
             </section>
         </div>
     </main>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
